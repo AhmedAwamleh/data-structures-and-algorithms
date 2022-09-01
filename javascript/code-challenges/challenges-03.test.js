@@ -6,14 +6,14 @@ CHALLENGE 1 - Review
 Write a function called addTwo that takes in an array and adds two to every value using a for loop. Place the new value in a new array. Return the new array.
 ------------------------------------------------------------------------------------------------ */
 
+
 const addTwo = (arr) => {
-  const addTwo = (arr) => {
-    let newArr = [];
-    for (let i = 0; i < arr.length; i++) {
-      newArr.push(arr[i] + 2);
-    }
-    return newArr;
-  };
+  // Solution code here...
+  let myArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    myArr.push(arr[i] + 2);
+  }
+  return myArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -38,12 +38,12 @@ Write a function named containsAnd that, given an array of strings as input, use
 For example, containsAnd(['panda', 'ran', 'and']) returns ['panda', 'and'].
 ------------------------------------------------------------------------------------------------ */
 
+
 const containsAnd = (arr) => {
-  const containsAnd = (arr) => {
-    let newarr = [];
-    newarr = arr.filter(str => str.includes('and'));
-    return newarr;
-  };
+  // Solution code here...
+  let myArr = [];
+  myArr = arr.filter(str => str.includes('and'));
+  return myArr;
 };
 
 /* ------------------------------------------------------------------------------------------------

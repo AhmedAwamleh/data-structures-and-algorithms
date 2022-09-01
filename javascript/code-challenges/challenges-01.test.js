@@ -40,12 +40,15 @@ Write a function named `allUpperCase` that takes an array of strings, and return
 Use `forEach` to loop over the input array. The modified strings should each be added into a local array. Return that local array.
 ------------------------------------------------------------------------------------------------ */
 
+
 const allUpperCase = (arr) => {
-  let newArr = []
-  arr.forEach(String => {
-    newArr.push(String.UpeerCase())
-  })
-  return newArr
+  // Solution code here...
+  const arrList = [];
+
+  arr.forEach((value) => {
+    arrList.push(value.toUpperCase());
+  });
+  return arrList;
 };
 
 /* ------------------------------------------------------------------------------------------------
